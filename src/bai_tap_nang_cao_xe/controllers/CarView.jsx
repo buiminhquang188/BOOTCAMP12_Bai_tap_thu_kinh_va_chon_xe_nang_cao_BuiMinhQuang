@@ -4,10 +4,17 @@ export default class CarView extends Component {
   render() {
     const { dataCar } = this.props;
     const { srcImg } = dataCar;
+    const imgCar = typeof srcImg;
     return (
       <div className="w-100 h-100 showCar">
-        <img className="img-fluid" src={srcImg} alt="no" />
-        <img className="img-fluid wheelCar" src={"./images/icons/icon-wheel-1.jpg"}/>
+        {imgCar != "undefined" ? (
+          <img className="img-fluid" src={srcImg} alt="no" />
+        ) : (
+          <h1>
+            Welcome!! Please to choose a car <br /> (Phần chọn bánh xe em không
+            biết phải ghép sao nên em chưa làm phần đó :v
+          </h1>
+        )}
       </div>
     );
   }

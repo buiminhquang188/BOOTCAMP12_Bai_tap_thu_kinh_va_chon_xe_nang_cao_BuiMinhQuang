@@ -26,16 +26,6 @@ export default class CarFeatures extends Component {
             >
               Exterior Color
             </a>
-            <a
-              className="list-group-item list-group-item-action"
-              id="list-wheelinfor-list"
-              data-toggle="list"
-              href="#list-wheelinfor"
-              role="tab"
-              aria-controls="wheelinfor"
-            >
-              Wheels
-            </a>
           </div>
         </div>
         <div className="col-12">
@@ -83,14 +73,6 @@ export default class CarFeatures extends Component {
               ) : (
                 <h1>Let's choose a car</h1>
               )}
-            </div>
-            <div
-              className="tab-pane fade"
-              id="list-wheelinfor"
-              role="tabpanel"
-              aria-labelledby="list-wheelinfor-list"
-            >
-              Wheel
             </div>
           </div>
         </div>
