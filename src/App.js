@@ -5,10 +5,10 @@ function App() {
   return (
     <div className="App">
       {/* GLASSES */}
-      {/* <GlassesContain /> */}
+      <GlassesContain />
 
       {/* CAR */}
-      <CarContain />
+      {/* <CarContain /> */}
     </div>
   );
 }
