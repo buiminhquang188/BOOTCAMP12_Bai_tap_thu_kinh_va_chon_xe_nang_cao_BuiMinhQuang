@@ -1,10 +1,14 @@
 import './App.css';
 import GlassesContain from './bai_tap_glasses/controllers/GlassesContain';
-
+import CarContain from './bai_tap_nang_cao_xe/controllers/CarContain'
 function App() {
   return (
     <div className="App">
-      <GlassesContain />
+      {/* GLASSES */}
+      {/* <GlassesContain /> */}
+
+      {/* CAR */}
+      <CarContain />
     </div>
   );
 }
